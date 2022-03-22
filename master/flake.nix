@@ -9,7 +9,7 @@
   
   inputs.src-ffbookmarks-master.flake = false;
   inputs.src-ffbookmarks-master.owner = "achesak";
-  inputs.src-ffbookmarks-master.ref   = "refs/heads/master";
+  inputs.src-ffbookmarks-master.ref   = "master";
   inputs.src-ffbookmarks-master.repo  = "nim-ffbookmarks";
   inputs.src-ffbookmarks-master.type  = "github";
   
