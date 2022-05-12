@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/achesak/nim-ffbookmarks",
   "refs": [
-    "fatal: unable to access 'https://github.com/achesak/nim-ffbookmarks/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "ffbookmarks",
+      "version": "0.2",
+      "author": "Adam Chesak",
+      "desc": "Nim module for working with Firefox bookmarks",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.13",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.13"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
